@@ -1,7 +1,8 @@
 import React from "react";
 
 const Navbar = () => {
-	<div className="navbar navbar-expand-sm stiky-top navbar-dark bg-dark">
+	return (
+		<div className="navbar navbar-expand-sm stiky-top navbar-dark bg-dark">
 		<a className="navbar-brand" href="#">
 			Start Bootstrap
 		</a>
@@ -24,6 +25,7 @@ const Navbar = () => {
 				</a>
 			</li>
 		</ul>
-	</div>;
+	</div>
+	)
 };
 export default Navbar;
