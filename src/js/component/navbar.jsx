@@ -2,22 +2,11 @@ import React from "react";
 
 const Navbar = () => {
 	return (
-		<div className="navbar navbar-expand-md bd-navbar navbar-dark bg-dark stiky-top">
-			<div className="container-xxl flex-wrap flex-md-nowrap">
-				<button
-					className="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span className="navbar-toggler-icon text-light"></span>
-				</button>
+		<div className="navbar navbar-expand-md bd-navbar navbar-dark bg-dark sticky-top">
+			<div className="container-xxl display-flex flex-md-nowrap">
+				<div className="navbar-brand text-white">Start Bootstrap</div>
 
-				<div
-					className="collapse navbar-collapse"
-					id="navbarSupportedContent">
+				<div className="collapse navbar-collapse d-flex flex-row-reverse">
 					<ul className="navbar-nav ml-auto ">
 						<li className="nav-item active">
 							<a className="nav-link text-white" href="#">
