@@ -11,3 +11,13 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    margin:0;
+}
+
+Footer{
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
